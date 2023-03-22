@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #e8e8e8;
+  color: #363435;
+}
+
+.logo-incuba {
+  width: 150px;
+}
+
+.cabecalho {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+nav {
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  color: #363435;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li:hover {
+  width: 90%;
+  border: #f2c335;
+  border-bottom-style: solid;
+}
+
+:root {
+  --cinza: #a3a29f;
+}
+
+.carrossel {
+  width: 1484px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slides {
+  width: 400%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.image {
+  position: relative;
+  transition: 2s;
+}
+
+.manual-navigation {
+  width: 1484px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.manual-btn {
+  border: 2px solid #5c5c5c;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.manual-btn:hover {
+  background-color: var(--cinza);
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.impress {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.impressora {
+  width: 430px;
+  position: left;
+}
+
+.titulo1 {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 700;
+}
+
+.texto {
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 25px;
+  padding: 20px 0 20px 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 430;
+}
+
+.fila {
+  float: right;
+  margin: 0 10px 10px 0;
+}
+
+.filamento {
+  width: 400px;
+  position: right;
+}
+
+.titulo2 {
+  font-size: 1.8em;
+  text-align: center;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 700;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  border-top: 3px solid #f2c335;
+}
+
+.rodape {
+  position: relative;
+  width: 980px;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+.logo-rodape {
+  float: left;
+  margin: 0 0px 30px 0;
+}
+
+.logo-incuba-rodape {
+  width: 150px;
+}
+
+.texto-rodape {
+  margin: 0 0 0 500px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
